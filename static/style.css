@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-style: italic;
+}
+body{
+    height: 100vh;
+    background: url(360_F_461470323_6TMQSkCCs9XQoTtyer8VCsFypxwRiDGU.jpg);
+    width: 100%;
+}
+body>p{
+    position: absolute;
+    left: 30%;
+    top: 15%;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+main{
+    height: 45vh;
+    background-color:transparent ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body>main>form{
+    height: 85vh;
+    /* background-color:yellow ; */
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+body>main>form>#jd{
+    padding: 0px 60px;
+    label{
+        color: white;
+        font-size: 30px;
+    }
+    textarea{
+        color: white;
+        background-color: transparent;
+        outline: none;
+        font-size: 17px;
+        border: 2px solid white;
+        border-radius: 5px;
+        padding: 10px;
+        box-shadow: 0px 0px 10px rgb(255, 255, 255);
+        backdrop-filter: blur(8px);
+    }
+}
+body>main>form>#file{
+    padding: 0px 30px;
+    margin: 0px 0px 20px 0px;
+    label{
+        color: white;
+        font-size: 30px;
+    }
+    input[type="file"]{
+        width: 150px;
+        cursor: pointer;
+        transform: scale(1.5); /* Adjust size */
+        transform-origin: left;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    }
+}
+
+body>main>form>#check>button{
+    position: absolute;
+    left: 38%;
+    top: 70%;
+    color: white;
+    background-color: transparent;
+    font-size: 25px;
+    padding: 15px 120px;
+    margin: 30px 0px 0px 0px;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    backdrop-filter: blur(4px);
+}
+body>main>form>#check>button:hover{
+    transform: scale(1.1);
+    transition: 1s ease;
+}
