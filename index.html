@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}" />
+    <title>Resume Match score</title>
+  </head>
+  <body>
+    <p>Here Check Your Matching Score <br> To Job Description With Your Resume.....</p>
+    <main>
+      <form action="#" method="post" enctype="multipart/form-data">
+        <div id="jd">
+          <label for="txtarea">Job Description</label>
+          <br />
+          <textarea name="txtarea" id="txtarea" rows="10" cols="50"></textarea>
+        </div>
+        <div id="file">
+          <label for="resume">Upload Your Resume</label>
+          <br />
+          <br>
+          <input name="resume" id="resume" type="file" accept=".pdf" />
+        </div>
+        <div id="check">
+          <button type="submit">Check Score</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
