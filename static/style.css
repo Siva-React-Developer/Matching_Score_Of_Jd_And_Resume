@@ -79,6 +79,7 @@ body>main>form>#check>button{
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgb(255, 255, 255);
     backdrop-filter: blur(4px);
+    cursor: pointer;
 }
 body>main>form>#check>button:hover{
     transform: scale(1.1);
